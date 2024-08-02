@@ -91,7 +91,7 @@ describe('components/overage_users_banner', () => {
                     ExpiresAt: '1620335443650',
                     SkuShortName: 'Enterprise',
                     Name: 'LicenseName',
-                    Company: 'Mattermost Inc.',
+                    Company: 'cscbeyond LLC.',
                     Users: String(seatsPurchased),
                     Email: 'test@mattermost.com',
                     Id: licenseId,

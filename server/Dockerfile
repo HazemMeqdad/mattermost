@@ -27,13 +27,13 @@ RUN mkdir -p /mattermost/data /mattermost/plugins /mattermost/client/plugins \
   && adduser -q --disabled-password --uid ${PUID} --gid ${PGID} --gecos "" --home /mattermost mattermost
 
 # Copy the custom Mattermost binary into the image
-COPY --chown=mattermost:mattermost ../bin/mattermost /mattermost/bin/mattermost
+COPY --chown=mattermost:mattermost ./bin/linux_amd64/mattermost /mattermost/bin/mattermost
 
 # Copy necessary directories
-COPY --chown=mattermost:mattermost ../i18n /mattermost/i18n
-COPY --chown=mattermost:mattermost ../config /mattermost/config
-COPY --chown=mattermost:mattermost ../fonts /mattermost/fonts
-COPY --chown=mattermost:mattermost ../templates /mattermost/templates
+COPY --chown=mattermost:mattermost ./i18n /mattermost/i18n
+COPY --chown=mattermost:mattermost ./config /mattermost/config
+COPY --chown=mattermost:mattermost ./fonts /mattermost/fonts
+COPY --chown=mattermost:mattermost ./templates /mattermost/templates
 
 # We should refrain from running as privileged user
 USER mattermost
