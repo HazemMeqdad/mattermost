@@ -21,7 +21,7 @@ const Footer = () => {
                 key='footer-copyright'
                 className='footer-copyright'
             >
-                {`© ${new Date().getFullYear()} cscbeyond LLC.`}
+                {`© ${new Date().getFullYear()} CSC Beyond LLC.`}
             </span>
             {AboutLink && (
                 <ExternalLink

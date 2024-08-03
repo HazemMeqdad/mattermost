@@ -2006,7 +2006,7 @@
   "resolved" "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   "version" "2.0.4"
 
-"@mattermost/client@*", "@mattermost/client@file:/root/mattermost/webapp/platform/client":
+"@mattermost/client@*", "@mattermost/client@file:/home/hazem/mattermost/webapp/platform/client":
   "resolved" "file:platform/client"
   "version" "8.1.1"
   dependencies:
@@ -2035,11 +2035,11 @@
   "resolved" "https://registry.npmjs.org/@mattermost/compass-icons/-/compass-icons-0.1.34.tgz"
   "version" "0.1.34"
 
-"@mattermost/components@file:/root/mattermost/webapp/platform/components":
+"@mattermost/components@file:/home/hazem/mattermost/webapp/platform/components":
   "resolved" "file:platform/components"
   "version" "8.0.0"
 
-"@mattermost/types@*", "@mattermost/types@file:/root/mattermost/webapp/platform/types":
+"@mattermost/types@*", "@mattermost/types@file:/home/hazem/mattermost/webapp/platform/types":
   "resolved" "file:platform/types"
   "version" "8.1.1"
 
@@ -8941,7 +8941,7 @@
   "resolved" "https://registry.npmjs.org/mathml-tag-names/-/mathml-tag-names-2.1.3.tgz"
   "version" "2.1.3"
 
-"mattermost-webapp@*", "mattermost-webapp@file:/root/mattermost/webapp/channels":
+"mattermost-webapp@*", "mattermost-webapp@file:/home/hazem/mattermost/webapp/channels":
   "resolved" "file:channels"
   "version" "8.1.1"
   dependencies:

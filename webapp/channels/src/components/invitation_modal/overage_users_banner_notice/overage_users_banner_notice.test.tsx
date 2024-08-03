@@ -83,7 +83,7 @@ describe('components/invitation_modal/overage_users_banner_notice', () => {
                     ExpiresAt: '1620335443650',
                     SkuShortName: 'Enterprise',
                     Name: 'LicenseName',
-                    Company: 'cscbeyond LLC.',
+                    Company: 'CSC Beyond LLC.',
                     Users: String(seatsPurchased),
                     Id: licenseId,
                 },

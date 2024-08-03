@@ -38,7 +38,7 @@ describe('components/admin_console/license_settings/enterprise_edition/enterpris
         ExpiresAt: '1620335443650',
         SkuShortName: 'Enterprise',
         Name: 'LicenseName',
-        Company: 'cscbeyond LLC.',
+        Company: 'CSC Beyond LLC.',
         Users: '1000',
     };
 

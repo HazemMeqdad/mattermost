@@ -34,7 +34,7 @@ describe('components/admin_console/license_settings/LicenseSettings', () => {
             ExpiresAt: '1620335443650',
             SkuShortName: LicenseSkus.E20,
             Name: 'LicenseName',
-            Company: 'cscbeyond LLC.',
+            Company: 'CSC Beyond LLC.',
             Users: '100',
         },
         prevTrialLicense: {

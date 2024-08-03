@@ -50,7 +50,7 @@ describe('components/AboutBuildModal', () => {
         };
         license = {
             IsLicensed: 'true',
-            Company: 'cscbeyond LLC',
+            Company: 'CSC Beyond LLC',
         };
     });
 

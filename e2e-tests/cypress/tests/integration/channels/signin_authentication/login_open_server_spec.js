@@ -93,7 +93,7 @@ describe('Login page with open server', () => {
             const currentYear = todaysDate.getFullYear();
 
             // * Check if copyright footer is present
-            cy.findByText(`© ${currentYear} cscbeyond LLC.`).should('exist');
+            cy.findByText(`© ${currentYear} CSC Beyond LLC.`).should('exist');
         });
     });
 
